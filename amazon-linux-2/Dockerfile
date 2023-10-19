@@ -1,6 +1,6 @@
 FROM public.ecr.aws/amazonlinux/amazonlinux:2
 
-RUN yum install -y unzip \
+RUN yum install -y unzip jq \
     && yum clean all \
     && rm -rf /var/cache/yum
 
