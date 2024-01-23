@@ -7,5 +7,6 @@ Supports Amazon Linux 2 and 2023.
 
 Installs the following:
 
-- awscli
+- awscli (v2)
 - jq
+- findutils

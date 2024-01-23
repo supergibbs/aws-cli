@@ -1,5 +1,5 @@
 FROM public.ecr.aws/amazonlinux/amazonlinux:2023
 
-RUN dnf install -y awscli jq \
+RUN dnf install -y awscli jq findutils \
     && dnf clean all \
     && rm -rf /var/cache/yum
