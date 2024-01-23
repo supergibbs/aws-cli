@@ -1,6 +1,6 @@
 FROM public.ecr.aws/amazonlinux/amazonlinux:2
 
-RUN yum install -y unzip jq findutils \
+RUN yum install -y unzip jq findutils gzip \
     && yum clean all \
     && rm -rf /var/cache/yum
 

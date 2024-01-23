@@ -10,3 +10,4 @@ Installs the following:
 - awscli (v2)
 - jq
 - findutils
+- gzip
